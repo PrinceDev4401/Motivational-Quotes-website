@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(20, 0, 0, 0.5)50%, rgba(20, 0, 0, 0.5)20%), url(kkkk.png);
+    background-attachment: fixed;
+    backdrop-filter: blur(20px);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.content .word p{
+    overflow: scroll;
+}
+
+.all{
+    width: 100%;
+    /* background: linear-gradient(to top, rgba(20, 0, 0, 0.5)50%, rgba(20, 0, 0, 0.5)20%), url(kkkk.png); */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background-size: contain; */
+    /* height: 100vh;  */
+}
+
+.topbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 4px;
+    float: left;
+    padding-top: 10px;
+}
+
+.all .logo{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.all .logo::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #4a8fbd, #9b59b6);
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+ul li a:active{
+    font-size: 18px;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content h1{
+    color: #e4842b;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .word{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    color: #ccc;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content .more{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .more a{
+    text-decoration: none;
+    color: #ccc;
+    transition: .3s ease;
+}
+
+.more:hover{
+    background-color: #756a6a;
+}
+
+.more:active{
+    font-size: 12px;
+}
+
+.content span{
+    color: #e4842b;
+    font-size: 30px;
+}
